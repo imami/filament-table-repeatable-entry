@@ -1,14 +1,19 @@
 {
-    "name": "icetalker/filament-table-repeatable-entry",
-    "description": "Display Filament RepeatableEntry as table",
+    "name": "imami/filament-table-repeatable-entry",
+    "description": "Display Filament RepeatableEntry as table, based on icetalker/filament-table-repeatable-entry",
     "keywords": [
-        "icetalker",
+        "imami",
         "laravel",
         "filament-table-repeatable-entry"
     ],
     "homepage": "https://github.com/icetalker/filament-table-repeatable-entry",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Ebrahim Imami",
+            "email": "ebrahimimami@gmail.com",
+            "role": "Developer"
+        },
         {
             "name": "Martin Hwang",
             "email": "termlong.com@gmail.com",
