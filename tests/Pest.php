@@ -1,5 +1,5 @@
 <?php
 
-use Icetalker\FilamentTableRepeatableEntry\Tests\TestCase;
+use Imami\FilamentTableRepeatableEntry\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

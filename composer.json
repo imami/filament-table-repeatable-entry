@@ -6,7 +6,7 @@
         "laravel",
         "filament-table-repeatable-entry"
     ],
-    "homepage": "https://github.com/icetalker/filament-table-repeatable-entry",
+    "homepage": "https://github.com/imami/filament-table-repeatable-entry",
     "license": "MIT",
     "authors": [
         {
@@ -36,13 +36,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Icetalker\\FilamentTableRepeatableEntry\\": "src",
-            "Icetalker\\FilamentTableRepeatableEntry\\Database\\Factories\\": "database/factories"
+            "Imami\\FilamentTableRepeatableEntry\\": "src",
+            "Imami\\FilamentTableRepeatableEntry\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Icetalker\\FilamentTableRepeatableEntry\\Tests\\": "tests"
+            "Imami\\FilamentTableRepeatableEntry\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -62,10 +62,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Icetalker\\FilamentTableRepeatableEntry\\FilamentTableRepeatableEntryServiceProvider"
+                "Imami\\FilamentTableRepeatableEntry\\FilamentTableRepeatableEntryServiceProvider"
             ],
             "aliases": {
-                "FilamentTableRepeatableEntry": "Icetalker\\FilamentTableRepeatableEntry\\Facades\\FilamentTableRepeatableEntry"
+                "FilamentTableRepeatableEntry": "Imami\\FilamentTableRepeatableEntry\\Facades\\FilamentTableRepeatableEntry"
             }
         }
     },

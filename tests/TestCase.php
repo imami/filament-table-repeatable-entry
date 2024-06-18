@@ -1,10 +1,10 @@
 <?php
 
-namespace Icetalker\FilamentTableRepeatableEntry\Tests;
+namespace Imami\FilamentTableRepeatableEntry\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Icetalker\FilamentTableRepeatableEntry\FilamentTableRepeatableEntryServiceProvider;
+use Imami\FilamentTableRepeatableEntry\FilamentTableRepeatableEntryServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -13,7 +13,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Icetalker\\FilamentTableRepeatableEntry\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            fn (string $modelName) => 'Imami\\FilamentTableRepeatableEntry\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 

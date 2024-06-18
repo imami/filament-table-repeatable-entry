@@ -1,6 +1,6 @@
 <?php
 
-namespace Icetalker\FilamentTableRepeatableEntry;
+namespace Imami\FilamentTableRepeatableEntry;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;

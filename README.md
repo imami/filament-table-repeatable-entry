@@ -1,9 +1,9 @@
 # Display Filament RepeatableEntry as table
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/icetalker/filament-table-repeatable-entry.svg?style=flat-square)](https://packagist.org/packages/icetalker/filament-table-repeatable-entry)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/icetalker/filament-table-repeatable-entry/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/icetalker/filament-table-repeatable-entry/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/icetalker/filament-table-repeatable-entry/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/icetalker/filament-table-repeatable-entry/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/icetalker/filament-table-repeatable-entry.svg?style=flat-square)](https://packagist.org/packages/icetalker/filament-table-repeatable-entry)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/imami/filament-table-repeatable-entry.svg?style=flat-square)](https://packagist.org/packages/imami/filament-table-repeatable-entry)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/imami/filament-table-repeatable-entry/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/imami/filament-table-repeatable-entry/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/imami/filament-table-repeatable-entry/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/imami/filament-table-repeatable-entry/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/imami/filament-table-repeatable-entry.svg?style=flat-square)](https://packagist.org/packages/imami/filament-table-repeatable-entry)
 
 This is a Filament InfolistS Component, use for display RepetableEntry as a table.
 
@@ -12,13 +12,13 @@ This is a Filament InfolistS Component, use for display RepetableEntry as a tabl
 You can install the package via composer:
 
 ```bash
-composer require icetalker/filament-table-repeatable-entry
+composer require imami/filament-table-repeatable-entry
 ```
 
 ## Usage
 
 ```php
-namespace Icetalker\FilamentTableRepeater\Forms\Components;
+namespace Imami\FilamentTableRepeater\Forms\Components;
 
 TableRepeatableEntry::make('items')
     ->schema([
@@ -34,7 +34,7 @@ TableRepeatableEntry::make('items')
 To enable striped table rows, you can use the `striped()` method:
 
 ```php
-namespace Icetalker\FilamentTableRepeater\Forms\Components;
+namespace Imami\FilamentTableRepeater\Forms\Components;
 
 TableRepeatableEntry::make('items')
     ->schema([
@@ -51,7 +51,7 @@ TableRepeatableEntry::make('items')
 To show table row index, please use `showIncdex()`:
 
 ```php
-namespace Icetalker\FilamentTableRepeater\Forms\Components;
+namespace Imamii\FilamentTableRepeater\Forms\Components;
 
 TableRepeatableEntry::make('items')
     ->schema([
